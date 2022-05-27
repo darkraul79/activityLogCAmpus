@@ -1,14 +1,14 @@
 <?php
 
-namespace Darkraul79\Activitylog\Exceptions;
+namespace Darkraul79\activityLogCAmpus\Exceptions;
 
 use Exception;
-use Darkraul79\Activitylog\Models\Activity;
+use Darkraul79\activityLogCAmpus\Models\Activity;
 
 class InvalidConfiguration extends Exception
 {
-	public static function modelIsNotValid(string $className)
-	{
-		return new static("The given model class `$className` does not extend `" . Activity::class . '`');
-	}
+    public static function modelIsNotValid(string $className)
+    {
+        return new static("The given model class `$className` does not extend `" . Activity::class . '`');
+    }
 }
