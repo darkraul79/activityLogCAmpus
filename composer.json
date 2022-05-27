@@ -1,0 +1,20 @@
+{
+    "name": "darkraul79/activitylogcampus",
+    "description": "Log for campus",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Darkraul79\\Activitylogcampus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "darkraul79",
+            "email": "info@raulsebastian.es"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    }
+}
