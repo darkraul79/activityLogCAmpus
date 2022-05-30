@@ -1,6 +1,6 @@
 <?php
 
-namespace Darkraul79\activityLogCAmpus;
+namespace Darkraul79\Activitylogcampus;
 
 use Carbon\Carbon;
 use Illuminate\Console\Command;

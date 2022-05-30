@@ -33,9 +33,9 @@ return [
 
     /*
      * This model will be used to log activity. The only requirement is that
-     * it should be or extend the Darkraul79\activityLogCAmpus\Models\Activity model.
+     * it should be or extend the Darkraul79\Activitylogcampus\Models\Activity model.
      */
-    'activity_model' => \Darkraul79\activityLogCAmpus\Models\Activity::class,
+    'activity_model' => \Darkraul79\Activitylogcampus\Models\Activity::class,
 
     'table_name' => 'activities',
 ];

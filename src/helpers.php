@@ -1,6 +1,6 @@
 <?php
 
-use Darkraul79\activityLogCAmpus\ActivityLogger;
+use Darkraul79\Activitylogcampus\ActivityLogger;
 
 if (!function_exists('activity')) {
     function activity(string $logName = null): ActivityLogger

@@ -1,6 +1,6 @@
 <?php
 
-namespace Darkraul79\activityLogCAmpus\Models;
+namespace Darkraul79\Activitylogcampus\Models;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;

@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "Darkraul79\\Activitylogcampus\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {

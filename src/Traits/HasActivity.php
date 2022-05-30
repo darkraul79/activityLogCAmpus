@@ -1,8 +1,8 @@
 <?php
 
-namespace Darkraul79\activityLogCAmpus\Traits;
+namespace Darkraul79\Activitylogcampus\Traits;
 
-use Darkraul79\activityLogCAmpus\ActivitylogServiceProvider;
+use Darkraul79\Activitylogcampus\ActivitylogServiceProvider;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasActivity
